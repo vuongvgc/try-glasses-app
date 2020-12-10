@@ -10,11 +10,11 @@ class GlassesList extends Component {
         {this.props.productList.map((item) => {
           return (
             <div className="col-2" key={item.id}>
-              <div className="glasses-list__item ">
-                <GlassesItem
-                  url={item.url}
-                  onTry={() => this.props.onTry(item.id)}
-                />
+              <div
+                className="glasses-list__item"
+                onClick={() => this.props.onTry(item.id)}
+              >
+                <GlassesItem url={item.url} />
               </div>
             </div>
           );
