@@ -19,6 +19,7 @@ class GlassesList extends Component {
             </div>
           );
         })}
+
       </div>
     );
   }
