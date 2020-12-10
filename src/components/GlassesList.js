@@ -3,8 +3,47 @@ import GlassesItem from "./GlassesItem";
 class GlassesList extends Component {
   render() {
     return (
-      <div>
-        <GlassesItem />
+      <div className=" container row glasses-list__box">
+        <div className="col-2">
+          <div className="glasses-list__item ">
+            <GlassesItem />
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="glasses-list__item ">
+            <GlassesItem />
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="glasses-list__item ">
+            <GlassesItem />
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="glasses-list__item ">
+            <GlassesItem />
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="glasses-list__item ">
+            <GlassesItem />
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="glasses-list__item ">
+            <GlassesItem />
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="glasses-list__item ">
+            <GlassesItem />
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="glasses-list__item ">
+            <GlassesItem />
+          </div>
+        </div>
       </div>
     );
   }
