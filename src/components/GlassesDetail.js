@@ -4,11 +4,8 @@ class GlassesDetail extends Component {
   render() {
     return (
       <div className="detail__box">
-        <h4>GUCCI G8850U</h4>
-        <p>
-          Light pink square lenses define these sunglasses, ending with amother
-          of pearl effect tip.
-        </p>
+        <h4>{this.props.name}</h4>
+        <p>{this.props.desc}</p>
       </div>
     );
   }
