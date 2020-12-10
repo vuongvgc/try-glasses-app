@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h2>Try glasses app Online</h2>
+        <h3>Try glasses app Online</h3>
       </header>
     );
   }

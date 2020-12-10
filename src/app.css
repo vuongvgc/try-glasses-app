@@ -5,17 +5,18 @@
 }
 
 .app {
-    background-image: url('./image/background.jpg');
+    background: url('./image/background.jpg'),#000;
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url('./image/background.jpg');
     background-position: top;
     background-size: cover;
-    height: 100vh;
+    padding: 0 0 10px 0;
 }
 header {
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 .model__box{
     position: relative;
@@ -46,9 +47,9 @@ header {
     color: #fff;
 }
 .glasses-list__box {
-    background-color: silver;
-    width: 80%;
-    margin: 10px auto;
+    background-color: #fff;
+    width: 60%;
+    margin: 20px auto;
     padding: 20px;
 }
 .glasses-list__item {
